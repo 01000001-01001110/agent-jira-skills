@@ -1,0 +1,42 @@
+{
+  "_comment": "Organization standard Subtask template for breaking down Stories",
+  "_usage": "Copy and customize for new Subtask creation",
+  "_naming": "Use action verb format: 'Create X', 'Implement Y', 'Add Z'",
+  "fields": {
+    "project": { "key": "PROJECT_KEY" },
+    "issuetype": { "name": "Subtask" },
+    "parent": { "key": "STORY_KEY" },
+    "summary": "[Action Verb] [specific deliverable]"
+  },
+  "_common_subtask_patterns": {
+    "api_endpoint": [
+      "Create API route [endpoint path]",
+      "Add input validation schema",
+      "Implement error handling",
+      "Write unit tests for endpoint",
+      "Add API documentation"
+    ],
+    "ui_component": [
+      "Create component skeleton",
+      "Implement UI layout",
+      "Add state management",
+      "Connect to API",
+      "Add loading/error states",
+      "Write component tests"
+    ],
+    "database": [
+      "Create database migration",
+      "Add indexes for queries",
+      "Create seed data",
+      "Test queries performance"
+    ],
+    "feature_complete": [
+      "Implement core functionality",
+      "Add validation and error handling",
+      "Write unit tests",
+      "Write integration tests",
+      "Update documentation",
+      "Code review and merge"
+    ]
+  }
+}

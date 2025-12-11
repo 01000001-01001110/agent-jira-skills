@@ -1,0 +1,115 @@
+{
+  "_comment": "Organization standard Story template following SAFe user story format",
+  "_usage": "Copy and customize for new Story creation",
+  "_format": "As a [user type], I want [goal], so that [benefit]",
+  "fields": {
+    "project": { "key": "PROJECT_KEY" },
+    "issuetype": { "name": "Story" },
+    "parent": { "key": "EPIC_KEY" },
+    "summary": "As a [user type], I want [goal], so that [benefit]",
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "User Story" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [{ "type": "text", "text": "As a [user type], I want [goal/action], so that [benefit/value]." }]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Acceptance Criteria" }]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 3 },
+          "content": [{ "type": "text", "text": "Scenario 1: [Happy Path Name]" }]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "GIVEN [precondition/context]" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "WHEN [action/trigger]" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "THEN [expected result]" }] }]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 3 },
+          "content": [{ "type": "text", "text": "Scenario 2: [Edge Case/Error Name]" }]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "GIVEN [precondition/context]" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "WHEN [action/trigger]" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "THEN [expected result]" }] }]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Definition of Done" }]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "[ ] Code implemented and reviewed" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "[ ] Unit tests written and passing" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "[ ] Integration tests passing" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "[ ] Documentation updated" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "[ ] Deployed to staging and tested" }] }]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Technical Notes" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [{ "type": "text", "text": "[Any technical implementation notes, API endpoints, database changes, etc.]" }]
+        }
+      ]
+    },
+    "labels": ["category-label"]
+  }
+}

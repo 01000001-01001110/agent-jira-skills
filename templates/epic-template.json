@@ -1,0 +1,92 @@
+{
+  "_comment": "Organization standard Epic template for SAFe methodology",
+  "_usage": "Copy and customize for new Epic creation",
+  "fields": {
+    "project": { "key": "PROJECT_KEY" },
+    "issuetype": { "name": "Epic" },
+    "summary": "[Epic Name] - [Brief Value Statement]",
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Business Outcome" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [{ "type": "text", "text": "[What business value does this Epic deliver? What problem does it solve?]" }]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Success Metrics" }]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "[Metric 1]: [Target Value]" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "[Metric 2]: [Target Value]" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "[Metric 3]: [Target Value]" }] }]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Scope" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [{ "type": "text", "text": "IN SCOPE: [List what is included in this Epic]" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [{ "type": "text", "text": "OUT OF SCOPE: [List what is explicitly excluded]" }]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Target Users" }]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "[User Persona 1]: [Brief description of their needs]" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "[User Persona 2]: [Brief description of their needs]" }] }]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Dependencies" }]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "[Technical dependency or prerequisite]" }] }]
+            }
+          ]
+        }
+      ]
+    },
+    "labels": ["epic", "mvp"]
+  }
+}
